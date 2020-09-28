@@ -1,6 +1,5 @@
 import java.io.IOException;
 import java.nio.file.Paths;
-import java.sql.SQLOutput;
 import java.util.HashSet;
 import java.util.Scanner;
 
@@ -11,7 +10,7 @@ public class GetUniqueTags {
 		Scanner file;
 
 		try {
-			file = new Scanner(Paths.get("tags.csv"));
+			file = new Scanner(Paths.get("LWS Master Wine Sheet - Possible Tags.csv"));
 		} catch (IOException ex) {
 			ex.printStackTrace();
 			return;
